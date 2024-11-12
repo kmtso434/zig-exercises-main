@@ -1,1 +1,1 @@
-console.log(xMin(), xMax())
+copy from https://codeberg.org/ziglings/exercises/

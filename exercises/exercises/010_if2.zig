@@ -14,3 +14,5 @@ pub fn main() void {
 
     std.debug.print("With the discount, the price is ${}.\n", .{price});
 }
+
+// Solve

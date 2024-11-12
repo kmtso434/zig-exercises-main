@@ -25,3 +25,5 @@ fn getNumber(n: u32) NumError!u32 {
         return 42;
     }
 }
+
+// Solve

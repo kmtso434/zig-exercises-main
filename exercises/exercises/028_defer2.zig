@@ -35,3 +35,5 @@ fn printAnimal(animal: u8) void {
 
     std.debug.print("Unknown", .{});
 }
+
+// Solve

@@ -57,3 +57,5 @@ fn increaseNumber(n: u32) MyErr!u32 {
 
     return n + 1;
 }
+
+// Solve

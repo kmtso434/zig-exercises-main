@@ -73,3 +73,5 @@ fn detectProblems(n: u32) MyNumberError!u32 {
     if (n > 20) return MyNumberError.TooBig;
     return n;
 }
+
+// Solve

@@ -31,3 +31,5 @@ pub fn main() void {
         std.debug.print("Foo is not 1!\n", .{});
     }
 }
+
+// Solve

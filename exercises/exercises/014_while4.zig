@@ -24,3 +24,5 @@ pub fn main() void {
     // Result: we want n=4
     std.debug.print("n={}\n", .{n});
 }
+
+// Solve

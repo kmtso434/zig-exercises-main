@@ -54,3 +54,5 @@ fn numberMaybeFail(n: u8) MyNumberError!u8 {
     if (n < 4) return MyNumberError.TooSmall;
     return n;
 }
+
+// Solve

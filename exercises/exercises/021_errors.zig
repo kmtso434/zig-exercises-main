@@ -44,3 +44,5 @@ fn numberFail(n: u8) MyNumberError {
     if (n < 4) return MyNumberError.TooSmall; // <---- this one is free!
     return MyNumberError.TooFour;
 }
+
+// Solve

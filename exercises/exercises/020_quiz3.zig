@@ -41,3 +41,5 @@ fn twoToThe(number: u16) u16 {
 
     return total;
 }
+
+// Solve

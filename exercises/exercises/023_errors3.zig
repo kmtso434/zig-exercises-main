@@ -26,3 +26,5 @@ fn addTwenty(n: u32) MyNumberError !u32 {
         return n + 20;
     }
 }
+
+// Solve

@@ -22,3 +22,5 @@ pub fn main() void {
 
     std.debug.print("{s}\n", .{lyrics});
 }
+
+// Solve

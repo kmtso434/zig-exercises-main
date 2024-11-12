@@ -28,3 +28,5 @@ fn twoToThe(my_number : u32) u32 {
     // numbers of that type (or that can coerce to that type) and
     // returns "a to the power of b" as that same numeric type.
 }
+
+// Solve

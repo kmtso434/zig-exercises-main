@@ -28,3 +28,5 @@ pub fn main() void {
 fn deepThought() u8 {
     return 42; // Number courtesy Douglas Adams
 }
+
+// Solve

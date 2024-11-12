@@ -42,3 +42,5 @@ pub fn main() void {
 // written. As we'll see in later exercises, the above syntax for
 // capturing the index is part of a more general ability. Hang in
 // there!
+
+// Solve

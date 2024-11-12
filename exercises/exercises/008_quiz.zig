@@ -41,3 +41,5 @@ pub fn main() void {
     // We want to "Program in Zig!" of course:
     std.debug.print("Program in {s}!\n", .{lang});
 }
+
+// Solve

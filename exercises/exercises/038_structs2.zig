@@ -45,8 +45,8 @@ pub fn main() void {
 
     // Printing all RPG characters in a loop:
     for (chars, 0..) |c, num| {
-        std.debug.print("Character {} - G:{} H:{} XP:{}\n", .{
-            num + 1, c.gold, c.health, c.experience,
+        std.debug.print("Character {}\n role: {}\n gold:{}\n health:{}\n experience:{}\n\n", .{
+            num + 1, c.role, c.gold, c.health, c.experience,
         });
     }
 }

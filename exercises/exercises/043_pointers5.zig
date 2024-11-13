@@ -59,7 +59,7 @@ pub fn main() void {
         .experience = 2340,
     };
 
-    var glorp = Character{ // Glorp!
+    const glorp = Character{ // Glorp!
         .class = Class.wizard,
         .gold = 10,
         .experience = 20,
@@ -68,7 +68,7 @@ pub fn main() void {
 
     // FIX ME!
     // Please pass Glorp to printCharacter():
-    printCharacter(???);
+    printCharacter(glorp);
 }
 
 // Note how this function's "c" parameter is a pointer to a Character struct.
@@ -94,6 +94,6 @@ fn printCharacter(c: *Character) void {
     // explained later (this pairs with the '?' mentioned above.)
     if (c.mentor) |mentor| {
         std.debug.print("  Mentor: ", .{});
-        printCharacter(mentor);
+        printCharacter(?mentor);
     }
 }

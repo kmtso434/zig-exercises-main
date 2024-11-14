@@ -26,12 +26,12 @@
 const std = @import("std");
 
 pub fn main() void {
-    var foo: u8 = 5;
+    const foo: u8 = 5;
     var bar: u8 = 10;
 
     // Please define pointer "p" so that it can point to EITHER foo or
     // bar AND change the value it points to!
-    const p: *const u8 = &unlocked;
+    const p: *u8  = &foo;
 
     p = &foo;
     p.* += 1;
@@ -39,4 +39,4 @@ pub fn main() void {
     p.* += 1;
     std.debug.print("foo={}, bar={}\n", .{ foo, bar });
 }
-/
+

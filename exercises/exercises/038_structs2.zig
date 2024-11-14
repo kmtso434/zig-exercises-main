@@ -44,12 +44,13 @@ pub fn main() void {
     // it do and why?
 
     // Printing all RPG characters in a loop:
-    for (chars, 0..) |c, num| {
+    for (chars, 0..) |c, index| {
         std.debug.print("Character {}\n role: {}\n gold:{}\n health:{}\n experience:{}\n\n", .{
-            num + 1, c.role, c.gold, c.health, c.experience,
+            index + 1, c.role, c.gold, c.health, c.experience,
         });
     }
 }
+
 
 // If you tried running the program without adding Zump as mentioned
 // above, you get what appear to be "garbage" values. In debug mode

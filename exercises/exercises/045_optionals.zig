@@ -48,3 +48,5 @@ fn deepThought() ?u8 {
 //    var maybe_bad: Error!u32 = Error.Evil;
 //    var number: u32 = maybe_bad catch 0;
 //
+
+// solve

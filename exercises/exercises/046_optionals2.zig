@@ -69,3 +69,5 @@ fn visitElephants(first_elephant: *Elephant) void {
         e = e.tail.?;
     }
 }
+
+// solve
